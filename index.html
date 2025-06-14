@@ -7,13 +7,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
  
+<style>
+  
 body {
   background-color: #222; /* or any grey you prefer */
   color: white;
 }
-
 
     .hero {
       color: white;
@@ -43,27 +43,56 @@ body {
   
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #1c1c1c;">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#" style="color: #d4af37;">🎵 Vybe Entertainment</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" style="color: #cfcfcf;" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #cfcfcf;" href="#services">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #cfcfcf;" href="#sound-gallery">Sound Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #cfcfcf;" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
   <!-- Hero Section -->
-  <section class="hero">
-    <div class="container">
-      <h1>Bring Your Sound to Life</h1>
-      <p>Affordable digital music production for artists, creators & dreamers</p>
-<a href="#services" class="btn" style="background-color: rgb(199, 170, 4); border: none; color: black;">Request a Song</a>
-    </div>
-  </section>
+ <section class="hero" style="background: url('hero1.jpg') center center / cover no-repeat; color: white; padding: 100px 0; position: relative;">
+  <div class="container text-center">
+    <h1>Bring Your Sound to Life</h1>
+    <p>Affordable digital music production for artists, creators & dreamers</p>
+    <a href="#services" class="btn" style="background-color: #d4af37; border: none; color: black;">Request a Song</a>
+  </div>
+  <!-- Optional dark overlay -->
+</section>
 
+  
 <!-- About Section -->
 <section id="about" class="py-5" style="background-color: #111; color: white;">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-md-6 mb-4 mb-md-0">
-        <img src="https://images.unsplash.com/photo-1603201667141-2ccf7b8a8f2e?auto=format&fit=crop&w=870&q=80" alt="Vybe Studio" class="img-fluid rounded shadow-sm" />
+        <img src="vybe studio.jpg" alt="Vybe Studio" class="img-fluid rounded shadow-sm" />
       </div>
       <div class="col-md-6">
         <h2 class="mb-3" style="color: #d4af37;">About Vybe Entertainment</h2>
         <p>
-          Vybe Entertainment is more than a music production service — it's a movement born from the heart of <strong style="color: #d4af37;">Essikado</strong>. Blending <strong style="color: #d4af37;">AI-powered sound engineering</strong> with real street experience, we give raw talent a voice and vibe.
+          Vybe Entertainment is more than a music production service — it's a movement born from the heart of <strong style="color: #d4af37;">Takoradi</strong>. Blending <strong style="color: #d4af37;">AI-powered sound engineering</strong> with real street experience, we give raw talent a voice and vibe.
         </p>
         <p>
           From brassband roots and freestyle sessions to clean digital soundscapes, we use tech and talent to help artists express their true stories. Whether it’s <strong style="color: #d4af37;">Afrobeats, Gospel, Drill</strong> or street love vibes — Vybe brings it to life.
@@ -121,19 +150,39 @@ body {
   </div>
 </section>
 
+
+
+
 <div class="container my-5" id="samples" style="background-color: #111; color: white; padding: 2rem; border-radius: 0.5rem;">
   <h2 class="text-center mb-3" style="color: #d4af37;">Listen to the Vybe</h2>
-  <p class="text-center text-muted mb-4" style="color: #cfcfcf;">Tap play and feel the difference.</p>
+  <p class="text-center text-muted mb-4" style="color:#d4af37 ;">Tap play and feel the difference.</p>
   
   <div class="row justify-content-center">
     <div class="col-md-6 mb-3">
       <!-- Sample 1 from Audiomack -->
-<iframe src="https://audiomack.com/embed/kyndee099/song/Mamas-prayer" scrolling="no" width="100%" height="252" frameborder="0" title="Hustler's prayer"></iframe>    </div>
+<div class="row justify-content-center">
+  <div class="col-md-8 mb-3">
+    <!-- Audiomack Album Embed -->
+    <iframe 
+      src="https://audiomack.com/embed/kyndee099/album/special-vibes" 
+      scrolling="no" 
+      width="100%" 
+      height="400" 
+      frameborder="0" 
+      title="Special Vibes">
+    </iframe>
+  </div>
+</div>
+    </div>
     <div class="col-md-6 mb-3">
       <!-- Sample 2 from SoundCloud -->
-      <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/your-track" style="border-radius: 0.5rem;">
-      </iframe>
+      <iframe src="https://audiomack.com/embed/kyndee099/playlist/kyndee-essentialshiplife" 
+      scrolling="no" 
+      width="100%" 
+      height="400" 
+      frameborder="0" 
+      title="Kyndee Essentials">
+    </iframe>
     </div>
   </div>
 </div>
@@ -181,6 +230,82 @@ body {
     </p>
   </div>
 </div>
+<!-- Wrapper to control full section width -->
+<div class="d-flex justify-content-center">
+  <section id="sound-gallery" class="py-5 w-100" style="max-width: 1140px; border-radius: 16px; background-color: #1c1c1c;">
+    <div class="container px-4">
+      <h2 class="text-center mb-5" style="color: #d4af37;">
+        <i class="bi bi-music-note-beamed" style="color: #d4af37;"></i> Our Sound Gallery
+      </h2>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="row g-4">
+
+            <!-- START CARD TEMPLATE -->
+            <div class="col-md-6">
+              <div class="card h-100 shadow-sm border-0" style="background-color: #2a2a2a; border-radius: 12px; transition: transform 0.3s;">
+                <div class="card-body text-light">
+                  <h5 class="card-title" style="color: #d4af37;">Birthday Anthem (AfroPop Sample)</h5>
+                  <p class="card-text">Uplifting afro-pop jam perfect for birthday celebrations and party vibes.</p>
+                  <audio controls class="w-100 mt-3">
+                    <source src="/audio/Birthday 1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+              </div>
+            </div>
+            <!-- END CARD -->
+
+            <div class="col-md-6">
+              <div class="card h-100 shadow-sm border-0" style="background-color: #2a2a2a; border-radius: 12px; transition: transform 0.3s;">
+                <div class="card-body text-light">
+                  <h5 class="card-title" style="color: #d4af37;">Father’s Day Anthem (AfroSoul Sample)</h5>
+                  <p class="card-text">Soulful tribute to dads with deep melodies and heartfelt lyrics.</p>
+                  <audio controls class="w-100 mt-3">
+                    <source src="/audio/Father's Day Anthem 2.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card h-100 shadow-sm border-0" style="background-color: #2a2a2a; border-radius: 12px; transition: transform 0.3s;">
+                <div class="card-body text-light">
+                  <h5 class="card-title" style="color: #d4af37;">Sweet Mother Tribute (AfroSoul Sample)</h5>
+                  <p class="card-text">A soulful and emotional dedication to mothers, with smooth vocals and heartfelt melodies.</p>
+                  <audio controls class="w-100 mt-3">
+                    <source src="/audio/Sweet mother 1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="card h-100 shadow-sm border-0" style="background-color: #2a2a2a; border-radius: 12px; transition: transform 0.3s;">
+                <div class="card-body text-light">
+                  <h5 class="card-title" style="color: #d4af37;">Church Jingle (Gospel Sample)</h5>
+                  <p class="card-text">An uplifting and spiritual jingle created for church branding, with a gospel-inspired sound and clean vocals.</p>
+                  <audio controls class="w-100 mt-3">
+                    <source src="/audio/Anthem 3.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                  </audio>
+                </div>
+              </div>
+            </div>
+            <!-- END CARD -->
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+
+
 
 
 
@@ -191,22 +316,23 @@ body {
   <div class="row">
     <!-- Basic Package -->
     <div class="col-md-4 mb-4">
-      <div class="card h-100 border-0 shadow text-center" style="background-color: #111; border-radius: 0.5rem;">
-        <div class="card-header" style="background-color: #222; color: #d4af37;">
-          <h4 class="my-2">Basic</h4>
-        </div>
-        <div class="card-body">
-          <h3 class="card-title" style="color: #d4af37;">GH₵100</h3>
-          <ul class="list-unstyled mt-3 mb-4" style="color: #cfcfcf;">
-            <li>🎧 1 custom beat</li>
-            <li>🎙️ Vocal recording (1 verse)</li>
-            <li>🔊 Basic mixing & mastering</li>
-            <li>⏱ 2-day turnaround</li>
-          </ul>
-          <a href="#contact" class="btn" style="background-color: #d4af37; color: #111;">Get Started</a>
-        </div>
-      </div>
+  <div class="card h-100 border-0 shadow text-center" style="background-color: #111; border-radius: 0.5rem;">
+    <div class="card-header" style="background-color: #222; color: #d4af37;">
+      <h4 class="my-2">Basic</h4>
     </div>
+    <div class="card-body">
+      <h3 class="card-title" style="color: #d4af37;">GH₵150</h3>
+      <ul class="list-unstyled mt-3 mb-4" style="color: #cfcfcf;">
+        <li>🎧 1 custom beat (your preferred style)</li>
+        <li>🛠 Basic mixing & mastering</li>
+        <li>🎯 1 minor revision included</li>
+        <li>⏱ 2-day turnaround</li>
+      </ul>
+      <a href="#contact" class="btn" style="background-color: #d4af37; color: #111;">Get Started</a>
+    </div>
+  </div>
+</div>
+
 
     <!-- Premium Package -->
     <div class="col-md-4 mb-4">
@@ -257,18 +383,18 @@ body {
 <style>
   #faqs {
     background-color: #000;
-    color: #FFD700;
+    color: #d4af37;
     padding: 60px 20px;
   }
 
   #faqs h2, 
   #faqs p {
-    color: #FFD700;
+    color: #d4af37;
   }
 
   .accordion-item {
     background-color: #111;
-    border: 1px solid #FFD700;
+    border: 1px solid #d4af37;
     margin-bottom: 1rem;
     border-radius: 6px;
     overflow: hidden;
@@ -276,7 +402,7 @@ body {
 
   .accordion-button {
     background-color: #000;
-    color: #FFD700;
+    color: #d4af37;
     font-weight: bold;
     padding: 1rem 1.25rem;
     border: none;
@@ -289,7 +415,7 @@ body {
 
   .accordion-button:not(.collapsed) {
     background-color: #222;
-    color: #FFD700;
+    color:#d4af37 ;
     box-shadow: none;
   }
 
@@ -376,17 +502,17 @@ body {
 <style>
   #contact {
     background-color: #000;
-    color: #FFD700;
+    color: #d4af37;
     padding: 60px 20px;
   }
 
   #contact h2, 
   #contact p {
-    color: #FFD700;
+    color: #d4af37;
   }
 
   .btn-gold {
-    background-color: #FFD700;
+    background-color: #d4af37;
     color: #000;
     border: none;
   }
@@ -398,7 +524,7 @@ body {
 
   .btn-black-outline {
     background-color: transparent;
-    color: #FFD700;
+    color:#d4af37 ;
     border: 2px solid #d4af37;
   }
 
@@ -445,14 +571,14 @@ body {
 
 
 <!-- Footer -->
-<footer style="background-color: #000; color: #FFD700; padding: 20px 0;">
+<footer style="background-color: #000; color: #d4af37; padding: 20px 0;">
   <div class="container text-center">
     <div class="mb-2">
       <!-- Social Media Links -->
-      <a href="https://youtube.com/@kyndee-o8t?si=Vx5WyaMmymmUmx55" target="_blank" class="text-decoration-none mx-2" aria-label="YouTube" style="color: #FFD700;">
+      <a href="https://www.youtube.com/yourchannel" target="_blank" class="text-decoration-none mx-2" aria-label="YouTube" style="color: #FFD700;">
         <i class="bi bi-youtube" style="font-size: 1.2rem;"></i>
       </a>
-      <a href="https://audiomack.com/kyndee099" target="_blank" class="text-decoration-none mx-2" aria-label="Audiomack" style="color: #FFD700;">
+      <a href="https://audiomack.com/yourprofile" target="_blank" class="text-decoration-none mx-2" aria-label="Audiomack" style="color: #FFD700;">
         <i class="bi bi-music-note-beamed" style="font-size: 1.2rem;"></i>
       </a>
       <a href="https://www.instagram.com/yourprofile" target="_blank" class="text-decoration-none mx-2" aria-label="Instagram" style="color: #FFD700;">
